@@ -1,4 +1,5 @@
 import { URLSearchParams } from 'whatwg-url';
+import { Buffer } from 'buffer';
 
 export function omit(keys, obj) {
   return keys.reduce((acc, key) => {
