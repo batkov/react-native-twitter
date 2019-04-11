@@ -1,4 +1,4 @@
-import URLSearchParams from 'url-search-params';
+import { URLSearchParams } from 'whatwg-url';
 
 export function omit(keys, obj) {
   return keys.reduce((acc, key) => {
